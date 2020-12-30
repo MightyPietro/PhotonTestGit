@@ -217,6 +217,14 @@ namespace Photon.Pun.Demo.PunBasics
 				// Load the Room Level. 
 				PhotonNetwork.LoadLevel("PunBasics-Room for 1");
 
+            }
+            else
+            {
+				Debug.Log("We load the 'Room for 2' ");
+
+				// #Critical
+				// Load the Room Level. 
+				PhotonNetwork.LoadLevel("PunBasics-Room for 2");
 			}
 		}
 
